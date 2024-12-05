@@ -1,0 +1,227 @@
+@media screen and (max-width: 767px) {
+  /*styles for mobile devices*/
+
+  /*DESKTOP HEADER*/
+  #header {
+    height: 10vh;
+    padding: 0 15px;
+    justify-content: space-between;
+  }
+
+  .menu ul li {
+    padding: 8px 2px;
+    display: inline-block;
+  }
+  
+  .menu ul li a {
+    font-size: 10px;
+    padding: 6px 10px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  /*HERO*/
+  #hero {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-text h5 {
+    font-size: 10px;
+  }
+
+  .hero-text h4 {
+    font-size: 12px;
+  }
+
+  .hero-text h1.nish {
+    font-size: 18px;
+  }
+
+  .hero-text h1.promo {
+    font-size: 18px;   
+  }
+
+  .hero-text p {
+    font-size: 12px;
+  }
+
+  .hero-img img {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  .hero-text a {
+    padding: 6px 10px;
+    line-height: 1.2;
+    font-size: 10px;
+  }
+
+  .icon i {
+    font-size: 18px;
+    
+  }
+
+  /*ABOUT US*/
+  #About-us {
+    min-height: 85vh;
+    height: 100%;
+  }
+
+  .about-us-text {
+    font-size: 12px;
+    height: 60vh;
+  }
+
+  #About-us h1 {
+    font-size: 20px;
+    margin: 40px;
+  }
+
+  .abt {
+    font-size: 12px;
+  }
+  
+  .bottom-icons i {
+    font-size: 18px;
+  }
+
+  .Download {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+  /* Additional styles to adjust images and alignment */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .hero-img {
+    text-align: center;
+  }
+  .about-us-text {
+    text-align: center;
+  }
+  .bottom-icons {
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  /*DESKTOP HEADER*/
+  #header {
+    height: 14vh;
+    padding: 0 25px;
+    justify-content: space-between;
+  }
+
+  .menu ul li {
+    padding: 8px 4px;
+    display: inline-block;
+  }
+  
+  .menu ul li a {
+    font-size: 12px;
+    padding: 7px 12px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  /*HERO*/
+  #hero {
+    height: 100%;
+    min-height: 65vh;
+  }
+
+  #hero {
+    width: 100%;
+  }
+  
+  .hero-text {
+    margin: 0px 45px;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-text h5 {
+    font-size: 12px;
+  }
+
+  .hero-text h4 {
+    font-size: 13px;
+  }
+
+  .hero-text h1.nish {
+    font-size: 19px;
+  }
+
+  .hero-text h1.promo {
+    font-size: 19px;   
+  }
+
+  .hero-text p {
+    font-size: 13px;
+  }
+
+  .hero-img {
+    margin: 20px 0px 0px 45px;
+  }
+
+  .hero-img img {
+    width: 250px;
+    padding: 150px 0px 0px 70px;
+  }
+
+  .hero-text a {
+    padding: 6px 11px;
+    line-height: 1.2;
+    font-size: 12px;
+  }
+
+  .icon i {
+    font-size: 20px;
+  }
+
+  /*ABOUT US*/
+  #About-us {
+    min-height: 75vh;
+    height: 100%;
+  }
+
+  .about-us-text {
+    font-size: 13px;
+    height: 50vh;
+  }
+
+  #About-us h1 {
+    font-size: 22px;
+    margin: 40px;
+  }
+
+  .abt {
+    font-size: 13px;
+  }
+  
+  .bottom-icons i {
+    font-size: 19px;
+  }
+
+  .Download {
+    padding: 7px 12px;
+    font-size: 12px;
+  }
+}
